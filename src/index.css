@@ -1,11 +1,11 @@
 @font-face {
   font-family: "MyriadProBold";
-  src: url(../src/assets/MyriadPro-Bold.woff) format("woff");
+  src: url(../src/assets/fonts/MyriadPro-Bold.woff) format("woff");
 }
 
 @font-face {
   font-family: "MyriadProRegular";
-  src: url(../src/assets/MyriadPro-Regular.woff) format("woff");
+  src: url(../src/assets/fonts/MyriadPro-Regular.woff) format("woff");
 }
 
 body {
