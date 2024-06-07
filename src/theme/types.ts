@@ -33,7 +33,7 @@ declare module "@mui/material/styles" {
     white: string;
     black: string;
   }
-  interface GrayPalletteColorOptions {
+  interface GrayPaletteColorOptions {
     gray?: string;
     graySecondary?: string;
     lightGray?: string;
@@ -42,7 +42,7 @@ declare module "@mui/material/styles" {
     grayText?: string;
     blueGray?: string;
   }
-  interface GrayPalletteColor {
+  interface GrayPaletteColor {
     gray: string;
     graySecondary: string;
     lightGray: string;
@@ -55,12 +55,12 @@ declare module "@mui/material/styles" {
   interface PaletteOptions {
     redPalette: RedPaletteColorOptions;
     mainPalette: MainPaletteColorOptions;
-    grayPallette: GrayPalletteColorOptions;
+    grayPalette: GrayPaletteColorOptions;
   }
   interface Palette {
     redPalette: RedPaletteColor;
     mainPalette: MainPaletteColor;
-    grayPallette: GrayPalletteColor;
+    grayPalette: GrayPaletteColor;
   }
 
   // Update typography types

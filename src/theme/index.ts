@@ -16,7 +16,7 @@ export const basicTheme = createTheme({
       red: "#ff0042",
       redSecondary: "#fe0143",
     },
-    grayPallette: {
+    grayPalette: {
       gray: "#d2d5dc",
       graySecondary: "#f7f7f7",
       lightGray: "#f2f6ff",
@@ -87,7 +87,7 @@ export const basicTheme = createTheme({
     },
     titleSmall: {
       fontFamily: MyriadProRegularFontFamily,
-      fontWeight: 700,
+      fontWeight: 400,
       fontSize: "40.85px",
       lineHeight: "normal",
     },
