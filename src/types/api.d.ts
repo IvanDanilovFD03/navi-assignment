@@ -4,15 +4,14 @@ export type ProceduralTrainerCardType = {
   title: string;
   subtitle: string;
   image: string;
-  links: {
-    flyLink: string;
-    starLink: string;
-  };
+  // links: {
+  //   flyLink: string;
+  //   starLink: string;
+  // };
 };
 
 export type RecentProceduresCardType = {
   id: string | number;
-  А;
   title: string;
   subtitle: string;
   stars: number;
