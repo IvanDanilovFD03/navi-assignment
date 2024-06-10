@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 
-import { Box } from "UI/Box";
 import { List } from "UI/List";
 import { ListItem } from "UI/ListItem";
+import { TrainingCard } from "components/TrainingCard";
+
+import { ProceduralTrainerCardType } from "types/api";
 
 import { styles } from "./styles";
-import { ProceduralTrainerCardType } from "types/api";
-import { TrainingCard } from "components/TrainingCard";
 
 export interface TrainerCardsListProps {
   cardsList: ProceduralTrainerCardType[];
