@@ -25,8 +25,12 @@ export const ProceduralTrainerSection: FC<ProceduralTrainerSectionProps> =
 
     return (
       <Box sx={styles.root}>
-        <Typography sx={styles.subtitle}>{formattedDate}</Typography>
-        <Typography sx={styles.title}>Procedural Trainer</Typography>
+        <Typography sx={styles.subtitle} variant="titleSmall">
+          {formattedDate}
+        </Typography>
+        <Typography sx={styles.title} variant="h6">
+          Procedural Trainer
+        </Typography>
         <TrainerCardsList cardsList={DUMMY_TRAINING_CARDS_DATA} />
       </Box>
     );
