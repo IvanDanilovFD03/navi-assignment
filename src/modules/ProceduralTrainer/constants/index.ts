@@ -1,8 +1,9 @@
 import ProceduralImage1 from "assets/images/procedural-image-1.png";
 import ProceduralImage2 from "assets/images/procedural-image-2.png";
 import ProceduralImage3 from "assets/images/procedural-image-3.png";
+import { ProceduralTrainerCardType } from "types/api";
 
-export const DUMMY_TRAINING_CARDS_DATA = [
+export const DUMMY_TRAINING_CARDS_DATA: ProceduralTrainerCardType[] = [
   {
     id: 1,
     title: "Emergency Procedures",
