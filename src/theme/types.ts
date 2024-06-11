@@ -71,6 +71,9 @@ declare module "@mui/material/styles" {
     textMain: React.CSSProperties;
     textSecondary: React.CSSProperties;
     textSmall : React.CSSProperties;
+    textSmallBold : React.CSSProperties;
+    textSmallSecondary: React.CSSProperties;
+    textSmallSecondaryBold: React.CSSProperties;
   }
   interface TypographyVariantsOptions {
     titleMain?: React.CSSProperties;
@@ -79,6 +82,9 @@ declare module "@mui/material/styles" {
     textMain?: React.CSSProperties;
     textSecondary?: React.CSSProperties;
     textSmall ?: React.CSSProperties;
+    textSmallBold ?: React.CSSProperties;
+    textSmallSecondary?: React.CSSProperties;
+    textSmallSecondaryBold?: React.CSSProperties;
   }
 }
 
@@ -91,5 +97,8 @@ declare module "@mui/material/Typography" {
     textMain: true;
     textSecondary: true;
     textSmall: true;
+    textSmallBold: true;
+    textSmallSecondary: true;
+    textSmallSecondaryBold: true;
   }
 }

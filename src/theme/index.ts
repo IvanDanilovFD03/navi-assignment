@@ -109,6 +109,24 @@ export const basicTheme = createTheme({
       fontSize: "32.46px",
       lineHeight: "130%",
     },
+    textSmallBold: {
+      fontFamily: MyriadProRegularFontFamily,
+      fontWeight: 700,
+      fontSize: "32.46px",
+      lineHeight: "normal",
+    },
+    textSmallSecondary: {
+      fontFamily: MyriadProRegularFontFamily,
+      fontWeight: 400,
+      fontSize: "20px",
+      lineHeight: "normal",
+    },
+    textSmallSecondaryBold: {
+      fontFamily: MyriadProRegularFontFamily,
+      fontWeight: 700,
+      fontSize: "20px",
+      lineHeight: "normal",
+    },
   },
   spacing: 4,
 });
