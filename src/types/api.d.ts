@@ -17,3 +17,27 @@ export type RecentProceduresCardType = {
   stars: number;
   image?: string;
 };
+
+export type ProceduresDetailsType = {
+  title: string;
+  subtitle: string;
+  stars: number;
+  percentage: number;
+  description: string;
+};
+
+export type ProcedureType = {
+  id: string;
+  title: string;
+  progress: ProceduralTrainerProgressType[];
+};
+
+export type ProceduralTrainerProgressType = {
+  id: string;
+  locked: boolean;
+  title: string;
+  subtitle: string;
+  stars: number;
+  percentage: number;
+  description: string;
+};
