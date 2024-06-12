@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknavi_assignment=self.webpackChunknavi_assignment||[]).push([[405],{8405:(e,t,a)=>{a.r(t),a.d(t,{default:()=>l});var s=a(8757),n=a(5865),r=a(8212);const g={root:{pt:25,bgcolor:r.g.palette.grayPalette.lightGray,height:"100%",[r.g.breakpoints.up("large")]:{pt:35}}};var i=a(579);const l=()=>(0,i.jsx)(s.A,{sx:g.root,children:(0,i.jsx)(n.A,{children:"CFI Page"})})}}]);
+//# sourceMappingURL=405.e58af002.chunk.js.map

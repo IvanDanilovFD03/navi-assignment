@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/navi-assignment/static/css/main.f3cab41f.css",
+    "main.js": "/navi-assignment/static/js/main.b279efcb.js",
+    "static/js/633.4dc45714.chunk.js": "/navi-assignment/static/js/633.4dc45714.chunk.js",
+    "static/js/405.e58af002.chunk.js": "/navi-assignment/static/js/405.e58af002.chunk.js",
+    "static/js/170.163aeb4b.chunk.js": "/navi-assignment/static/js/170.163aeb4b.chunk.js",
+    "static/js/182.9c12ece8.chunk.js": "/navi-assignment/static/js/182.9c12ece8.chunk.js",
+    "static/js/145.ff89d10d.chunk.js": "/navi-assignment/static/js/145.ff89d10d.chunk.js",
+    "static/js/679.41323010.chunk.js": "/navi-assignment/static/js/679.41323010.chunk.js",
+    "static/js/453.410f696b.chunk.js": "/navi-assignment/static/js/453.410f696b.chunk.js",
+    "static/media/procedural-image-2.png": "/navi-assignment/static/media/procedural-image-2.5cd13254c3d91c082c15.png",
+    "static/media/procedural-image-3.png": "/navi-assignment/static/media/procedural-image-3.f3f4e5585040446df040.png",
+    "static/media/procedural-image-1.png": "/navi-assignment/static/media/procedural-image-1.6cc84563bea08402d25b.png",
+    "static/media/dotted-path-right.png": "/navi-assignment/static/media/dotted-path-right.bdcee7cb76674d0f1c15.png",
+    "static/media/dotted-path-left.png": "/navi-assignment/static/media/dotted-path-left.a363380cd48262b3c3d8.png",
+    "static/media/logo-red.png": "/navi-assignment/static/media/logo-red.4e33a1b36b3544b54a3f.png",
+    "static/media/dotted-path-right-unlocked.png": "/navi-assignment/static/media/dotted-path-right-unlocked.20c846cff4e0523ef970.png",
+    "static/media/MyriadPro-Bold.woff": "/navi-assignment/static/media/MyriadPro-Bold.0631d0c079b17113756b.woff",
+    "static/media/MyriadPro-Regular.woff": "/navi-assignment/static/media/MyriadPro-Regular.966ca2d2813776dbe9b8.woff",
+    "static/media/dotted-path-left-unlocked.png": "/navi-assignment/static/media/dotted-path-left-unlocked.48d5e8c34af3cfd061a5.png",
+    "index.html": "/navi-assignment/index.html",
+    "main.f3cab41f.css.map": "/navi-assignment/static/css/main.f3cab41f.css.map",
+    "main.b279efcb.js.map": "/navi-assignment/static/js/main.b279efcb.js.map",
+    "633.4dc45714.chunk.js.map": "/navi-assignment/static/js/633.4dc45714.chunk.js.map",
+    "405.e58af002.chunk.js.map": "/navi-assignment/static/js/405.e58af002.chunk.js.map",
+    "170.163aeb4b.chunk.js.map": "/navi-assignment/static/js/170.163aeb4b.chunk.js.map",
+    "182.9c12ece8.chunk.js.map": "/navi-assignment/static/js/182.9c12ece8.chunk.js.map",
+    "145.ff89d10d.chunk.js.map": "/navi-assignment/static/js/145.ff89d10d.chunk.js.map",
+    "679.41323010.chunk.js.map": "/navi-assignment/static/js/679.41323010.chunk.js.map",
+    "453.410f696b.chunk.js.map": "/navi-assignment/static/js/453.410f696b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3cab41f.css",
+    "static/js/main.b279efcb.js"
+  ]
+}

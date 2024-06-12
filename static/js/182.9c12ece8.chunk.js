@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknavi_assignment=self.webpackChunknavi_assignment||[]).push([[182],{6182:(e,t,a)=>{a.r(t),a.d(t,{default:()=>i});var r=a(8757),s=a(5865),n=a(8212);const g={root:{pt:25,bgcolor:n.g.palette.grayPalette.lightGray,height:"100%",[n.g.breakpoints.up("large")]:{pt:35}}};var c=a(579);const i=()=>(0,c.jsx)(r.A,{sx:g.root,children:(0,c.jsx)(s.A,{children:"Emergency Procedures Page"})})}}]);
+//# sourceMappingURL=182.9c12ece8.chunk.js.map

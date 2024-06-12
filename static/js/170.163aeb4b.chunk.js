@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknavi_assignment=self.webpackChunknavi_assignment||[]).push([[170],{3170:(e,t,a)=>{a.r(t),a.d(t,{default:()=>l});var s=a(8757),n=a(5865),r=a(8212);const i={root:{pt:25,bgcolor:r.g.palette.grayPalette.lightGray,height:"100%",[r.g.breakpoints.up("large")]:{pt:35}}};var g=a(579);const l=()=>(0,g.jsx)(s.A,{sx:i.root,children:(0,g.jsx)(n.A,{children:"Scenarios Page"})})}}]);
+//# sourceMappingURL=170.163aeb4b.chunk.js.map
