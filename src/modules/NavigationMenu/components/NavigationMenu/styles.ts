@@ -7,7 +7,6 @@ export const styles: SxStyles = {
     display: "flex",
     alignItems: "start",
     overflow: "hidden",
-    transition: "width 0.5s ease-in-out",
   },
   openRoot: {
     display: "flex",
@@ -19,14 +18,12 @@ export const styles: SxStyles = {
     py: 14,
     bgcolor: basicTheme.palette.redPalette.red,
     height: "100vh",
-    overflow: "hidden",
     transition: "width 0.5s ease-in-out",
     position: "absolute",
     top: 0,
     left: 0,
     zIndex: 10,
     [basicTheme.breakpoints.up("laptop")]: {
-      position: "relative",
       width: 600,
     },
     [basicTheme.breakpoints.up("large")]: {
@@ -51,5 +48,28 @@ export const styles: SxStyles = {
     width: "100%",
     height: "100%",
     alignItems: "start",
+    position: "relative",
+    transition: "visible 0.5s ease-in-out",
+  },
+  blackBackground: {
+    position: "absolute",
+    zIndex: 1,
+    content: "''",
+    display: "flex",
+    bgcolor: "rgba(0, 0, 0, 0.5)",
+    width: "100vw",
+    left: 0,
+    top: 0,
+    height: "100vh",
+  },
+  closeIconButton: {
+    position: "absolute",
+    top: 56,
+    right: 24,
+  },
+  closeIcon: {
+    color: basicTheme.palette.mainPalette.white,
+    width: 28,
+    height: 28,
   },
 };
