@@ -43,6 +43,7 @@ export const styles: SxStyles = {
       width: 600,
     },
     a: {
+      width: "100%",
       textDecoration: "none",
     },
   },
