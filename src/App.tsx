@@ -21,16 +21,6 @@ const ErrorPage = lazy(() => import("pages/ErrorPage"));
 
 const App = () => {
   const { openMenu } = useNavigationMenuStore((state) => state);
-  const { isUpLaptop, isUpLarge } = useBreakpoints();
-  const pageWidth = () => {
-    if (openMenu && isUpLaptop) {
-      return "calc(100% - 600px)";
-    }
-    if (openMenu && isUpLarge) {
-      return "calc(100% - 800px)";
-    }
-    return "100%";
-  };
   return (
     <Box>
       <ThemeProvider theme={theme}>
@@ -44,7 +34,13 @@ const App = () => {
           }}
         >
           <NavigationMenu />
-          <Box sx={{ width: pageWidth() }}>
+          <Box
+            sx={{
+              width: "100%",
+              maxHeight: openMenu ? "100vh" : "auto",
+              overflow: openMenu ? "hidden" : "auto",
+            }}
+          >
             <Routes>
               <Route path="/" element={<Navigate to={`/My-Account`} />} />
               <Route
@@ -52,11 +48,11 @@ const App = () => {
                 element={<LazyLoadPage children={<ErrorPage />} />}
               />
               <Route
-                path={`/My-account`}
+                path={`/My-Account`}
                 element={<LazyLoadPage children={<MyAccountPage />} />}
               />
               <Route
-                path={`/MyAccount:ProceduralTrainerId`}
+                path={`/My-Account/:ProceduralTrainerId`}
                 element={<LazyLoadPage children={<ProceduralTrainerPage />} />}
               />
               <Route
