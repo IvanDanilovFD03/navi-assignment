@@ -15,6 +15,7 @@ export const basicTheme = createTheme({
     redPalette: {
       red: "#ff0042",
       redSecondary: "#fe0143",
+      darkRed: "#cf0036",
     },
     grayPalette: {
       gray: "#d2d5dc",

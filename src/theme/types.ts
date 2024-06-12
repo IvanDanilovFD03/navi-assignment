@@ -19,11 +19,13 @@ declare module "@mui/material/styles" {
     red?: string;
     redSecondary?: string;
     redLogo?: string;
+    darkRed?: string;
   }
   interface RedPaletteColor {
     red: string;
     redSecondary: string;
     redLogo: string;
+    darkRed: string;
   }
   interface MainPaletteColorOptions {
     white?: string;
