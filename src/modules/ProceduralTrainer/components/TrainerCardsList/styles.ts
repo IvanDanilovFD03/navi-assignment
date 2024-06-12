@@ -6,6 +6,7 @@ export const styles: SxStyles = {
     display: "flex",
     columnGap: 21,
     width: "100%",
+    pt: 5,
     pb: 10,
     overflowX: "auto",
     "&:-moz-read-only": {
@@ -30,9 +31,19 @@ export const styles: SxStyles = {
   listItem: {
     minWidth: 400,
     width: 400,
+    cursor: "pointer",
+    [basicTheme.breakpoints.up("laptop")]: {
+      transition: "transform 0.2s ease-in-out",
+      "&:hover": {
+        transform: "translateY(-5px)",
+      },
+    },
     [basicTheme.breakpoints.up("large")]: {
       minWidth: 600,
       width: 600,
+    },
+    a: {
+      textDecoration: "none",
     },
   },
 };
