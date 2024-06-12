@@ -8,8 +8,6 @@ import { Box } from "UI/Box";
 import { NavigationMenu, useNavigationMenuStore } from "modules/NavigationMenu";
 import LazyLoadPage from "pages/LazyLoadPage/LazyLoadPage";
 
-import { useBreakpoints } from "hooks/useBreakpoints";
-
 const MyAccountPage = lazy(() => import("pages/MyAccountPage"));
 const CFIPage = lazy(() => import("pages/CFIPage"));
 const ScenariosPage = lazy(() => import("pages/ScenariosPage"));
