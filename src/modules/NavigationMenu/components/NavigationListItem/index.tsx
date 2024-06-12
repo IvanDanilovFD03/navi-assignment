@@ -7,7 +7,9 @@ import Image from "mui-image";
 
 import { SxProps } from "@mui/material";
 import { styles } from "./styles";
+
 import { useBreakpoints } from "hooks/useBreakpoints";
+import useNavigationMenuStore from "modules/NavigationMenu/store";
 
 export interface NavigationListItemProps {
   id: number;
@@ -20,6 +22,7 @@ export interface NavigationListItemProps {
 export const NavigationListItem: FC<NavigationListItemProps> = React.memo(
   ({ id, icon, route, title, active }) => {
     const { isUpLarge } = useBreakpoints();
+    const { setOpenMenu } = useNavigationMenuStore((state) => state);
 
     const listItemStyle = (active: boolean): SxProps => {
       if (active) {
@@ -33,7 +36,7 @@ export const NavigationListItem: FC<NavigationListItemProps> = React.memo(
     };
     return (
       <Box sx={styles.root}>
-        <Link to={route}>
+        <Link to={route} onClick={() => setOpenMenu(false)}>
           <Box sx={listItemStyle(active)}>
             {active ? (
               <Box sx={styles.icon}>
