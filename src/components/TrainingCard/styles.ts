@@ -13,7 +13,7 @@ export const styles: SxStyles = {
     px: 8,
     pt: 17,
     pb: 10,
-    boxShadow: "0px 15px 30px rgba(0, 0, 0, 0.2)",
+    boxShadow: "4px 7px 15px rgba(0, 0, 0, 0.2)",
   },
   percentage: {
     ml: "auto",
