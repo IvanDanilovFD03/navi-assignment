@@ -40,7 +40,10 @@ const App = () => {
             }}
           >
             <Routes>
-              <Route path="/" element={<Navigate to={`/My-Account`} />} />
+              <Route
+                path="/"
+                element={<Navigate replace to={`/My-Account`} />}
+              />
               {/* <Route
                 path={`*`}
                 element={<LazyLoadPage children={<ErrorPage />} />}
